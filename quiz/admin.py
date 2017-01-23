@@ -3,5 +3,5 @@ from .models import *
 
 # Register your models here.
 class quiz_dataAdmin(admin.ModelAdmin):
-	list_display=["id","quiz_name","quiz_description","quiz_image","quiz_type","modified","created"]
+	list_display=["id","name","description","image","quiz_type","marks","modified","created"]
 admin.site.register(quiz_data,quiz_dataAdmin)
