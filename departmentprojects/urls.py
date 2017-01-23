@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from quiz.views import quiz
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^quiz/', quiz),
+
 ]
 
 from django.conf import settings
