@@ -26,6 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'quiz',
     'questions',
+    'Registration',
+    'User',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
